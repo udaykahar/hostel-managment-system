@@ -178,7 +178,7 @@ header {
   min-height: auto;
   text-align: center;
   color: black;
-  background-image: url(/images/home_pic.jpg);
+  background-image: url(../images/home_pic.jpg);
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -207,7 +207,7 @@ header .header-content .header-content-inner h1 {
 }
 
 #particles-js {
-  background-image: url(/images/home_pic.jpg);
+  background-image: url(../images/home_pic.jpg);
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
