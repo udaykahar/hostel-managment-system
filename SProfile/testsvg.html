@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .reached{
+        fill: rgb(96, 192, 125);
+        stroke: rgb(201, 234, 211);
+    }
+</style>
+<body>
+    <div id="progress">
+        <svg width="874" height="60" viewBox="0 0 874 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="36" y="18" width="251" height="25" fill="#777070" id="rect1" class="reached"/>
+            <rect x="322" y="18" width="251" height="25" fill="#777070" id="rect2"/>
+            <rect x="584" y="18" width="251" height="25" fill="#777070" id="rect3"/>
+            <path d="M57 30C57 44.2973 45.1981 56 30.5 56C15.8019 56 4 44.2973 4 30C4 15.7027 15.8019 4 30.5 4C45.1981 4 57 15.7027 57 30Z" fill="#777070" stroke="black" stroke-width="8" id="circ1"/>
+            <path d="M328 30C328 44.2973 316.198 56 301.5 56C286.802 56 275 44.2973 275 30C275 15.7027 286.802 4 301.5 4C316.198 4 328 15.7027 328 30Z" fill="#777070" stroke="black" stroke-width="8" id="circ2"/>
+            <path d="M599 30C599 44.2973 587.198 56 572.5 56C557.802 56 546 44.2973 546 30C546 15.7027 557.802 4 572.5 4C587.198 4 599 15.7027 599 30Z" fill="#777070" stroke="black" stroke-width="8" id="circ3"/>
+            <path d="M870 30C870 44.2973 858.198 56 843.5 56C828.802 56 817 44.2973 817 30C817 15.7027 828.802 4 843.5 4C858.198 4 870 15.7027 870 30Z" fill="#777070" stroke="black" stroke-width="8" id="circ4"/>
+        </svg>
+            
+    </div>
+        
+        
+</body>
+
+<script>
+    let rect1 = document.getElementById("rect1");
+    let rect2 = document.getElementById("rect2");
+    let rect3 = document.getElementById("rect3");
+
+    let circ1 = document.getElementById("circ1");
+    let circ2 = document.getElementById("circ2");
+    let circ3 = document.getElementById("circ3");   
+    let circ4 = document.getElementById("circ4");
+
+    circ1.classList.add('reached')
+    circ2.classList.add('reached')
+    rect1.classList.add('reached')
+</script>
+</html>

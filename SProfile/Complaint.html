@@ -2,15 +2,19 @@
 <html lang="en">
 
 <head>
+  <!--favicon-->
+  <link rel="shortcut icon" href="favicon.ico" type="image/icon">
+  <link rel="icon" href="favicon.ico" type="image/icon">
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/icon">
+  <link rel="icon" href="favicon.ico" type="image/icon">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Student Profile Home</title>
+  <title>Preferences</title>
   <meta name="description" content="">
   <meta name="author" content="templatemo">
-  <!--favicon-->
-  <link rel="shortcut icon" href="images/favicon.ico" type="image/icon">
-  <link rel="icon" href="images/favicon.ico" type="image/icon">
+
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,700' rel='stylesheet' type='text/css'>
   <link href="css/font-awesome.min.css" rel="stylesheet">
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -19,7 +23,7 @@
 
   	<!-- font awesome -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  
+
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -29,6 +33,7 @@
 </head>
 
 <body>
+  <!-- Left column -->
   <div class="parent-container">
     <div class="navbar-container">
       <nav class="navbar">
@@ -40,7 +45,7 @@
           </div>
           <div class="nav-title">
             <div class="logo-text">
-              <h1>gyan ganga  of Information Technology, Jabalpur</h1>
+              <h1>Gyan ganga institute of technology & sciences, Jabalpur</h1>
             </div>
             <div class="tagline">
               <h2>
@@ -69,13 +74,13 @@
             ?> -->
           </header>
           <li>
-            <a href="#" class="active"><i class="fa fa-home fa-fw"></i>Dashboard</a>
+            <a href="login.html"><i class="fa fa-home fa-fw"></i>Dashboard</a>
           </li>
           <!-- <li>
-            <a href="preferences.html"><i class="fa fa-sliders fa-fw"></i>Your Profile</a>
+            <a href="preferences.php"><i class="fa fa-sliders fa-fw"></i>Your Profile</a>
           </li> -->
           <li>
-            <a href="Complaint.html"><i class="fa fa-bullhorn fa-fw"></i>Raise complaint</a>
+            <a href="#" class="active"><i class="fa fa-bullhorn fa-fw"></i>Complaints</a>
           </li>
           <li>
             <a href="changepwd.html"><i class="fa fa-key fa-fw"></i>Change Password</a>
@@ -89,30 +94,33 @@
     <!-- Main content -->
     <div class="templatemo-content col-1 light-gray-bg">
       <div class="templatemo-content-container">
-        <div class="templatemo-flex-row flex-content-row">
-          <div class="templatemo-content-widget white-bg col-2">
-            <div class="square"></div>
-            <h2 class="templatemo-inline-block">Welcome to XYZ</h2>
-            <hr>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi deleniti dignissimos sequi, temporibus dolores placeat at voluptate in delectus saepe.
-              <br>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro et consequuntur voluptates laborum natus maxime sequi ducimus ullam odio quos similique itaque accusamus animi vel temporibus nam saepe provident quaerat, modi nostrum enim deleniti? Quam hic quasi sint est nemo.
-            </p>
-          </div>
-          <div class="templatemo-content-widget white-bg col-1 text-center">
-            <h4 class="text-uppercase">hostel name</h4>
-            <h5 class="text-uppercase margin-bottom-10">GGITS</h5>
-            <img src="hostel.jpg" alt="Bicycle" class="img-circle img-thumbnail">
-          </div>
+        <div class="templatemo-content-widget white-bg">
+          <h1>
+            <center>Raise Complaint</center>
+          </h1>
+          <hr>
+          <form action="">
+            <div>
+                <!-- <label>student id </label> -->
+                <input class="templatemo-content-widget white-bg"  type="stid" name="stid" placeholder="Enter your student id" style="width: 87%; margin: 10px;"/>
+            </div>
+            <div>
+                <textarea class="templatemo-content-widget white-bg" rows="10" cols="95" placeholder="Raise Complaint" name="description" id="description"></textarea>
+            </div>
+        </form>
         </div>
-        <!-- JS -->
-        <script src="js/jquery-1.11.2.min.js"></script>
-        <!-- jQuery -->
-        <script src="js/jquery-migrate-1.2.1.min.js"></script>
-        <!-- jQuery Migrate Plugin -->
-        <script type="text/javascript" src="js/templatemo-script.js"></script>
-        <!-- Templatemo Script -->
+      </div>
+    </div>
+  </div>
+  <!-- JS -->
+  <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+  <!-- jQuery -->
+  <script type="text/javascript" src="js/bootstrap-filestyle.min.js"></script>
+  <!-- http://markusslima.github.io/bootstrap-filestyle/ -->
+  <script type="text/javascript" src="js/templatemo-script.js"></script>
+  <!-- Templatemo Script -->
 </body>
+
+</html>
 
 </html>
