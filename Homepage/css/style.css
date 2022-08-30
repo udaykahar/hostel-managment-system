@@ -1,0 +1,154 @@
+/* write good css */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.footer{
+  padding-bottom: 2em;
+  border-top: 1.5px solid #eee;
+  padding: 2em 0;
+  background-color: black;
+}
+.ftr_navi ul li{
+	display:block;
+}
+.ftr_navi ul li a{
+	display:block;
+	padding:5px 0;
+	color: #848484;
+	font-size: .95em;
+}
+
+.ftr_navi ul li a:hover,.get_in_touch a:hover,.ftr-logo p a:hover{
+	text-decoration:none;
+	color:#fff;
+}
+.ftr-logo p{
+	margin-top:1em;
+	color: #848484;
+	line-height:1.8em;
+	  font-size: 0.95em;
+}
+.ftr-logo p a{
+	color: #848484;
+}
+.copywrite{
+	float:left;
+}
+.ftr{
+	margin-top:0em;
+	padding:0;
+}
+.ftr_navi.ftr ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.ftr-logo {
+  margin-top: 7em;
+}
+.get_in_touch h3,.ftr_navi h3{
+	  letter-spacing: 2px;
+	  font-family: 'Poiret One', cursive;
+  font-size: 1em;
+  font-weight: 600;
+  margin-bottom: 1em;
+    color: #fff;
+}
+.get_in_touch p {
+  color: #848484;
+  font-size: .95em;
+    padding: 0px 0;
+}
+.get_in_touch a {
+  color: #848484;
+  font-size: 0.9em;
+  text-decoration: none;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(/Homepage/images/home_pic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  filter: brightness(60%);
+}
+.hero-content {
+  position: relative;
+  font-family: "Monserrat", sans-serif;
+  color: white;
+  margin: 0.625rem;
+}
+.hero-title {
+  font-size: 5rem;
+  font-weight: 600;
+  /* margin-bottom: 35rem; */
+  /* color: orange; */
+}
+.hero-subtitle {
+  font-size: 2rem;
+  font-weight: 200;
+  margin-top: 1rem;
+}
+.hero-button {
+  background-color: #ae2d59;
+  color: white;
+  border: 1px solid #cb376a;
+  margin-top: 5rem;
+  padding: 0.9375rem1.875rem;
+  font-family: "Monserrat", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 200;
+  cursor: pointer;
+}
+.hero-button:hover {
+  background-color: #cb376a;
+  border: 1px solid #db7598;
+}
+iframe{
+  width: 1100px;
+  height: 400px;
+}
+/* smalll screen media queries */
+@media screen and (max-width: 768px) {
+  .hero {
+    height: 70vh;
+  }
+  .hero-content {
+    font-size: 3rem;
+  }
+  .hero-title {
+    font-size: 3rem;
+  }
+  .hero-subtitle {
+    font-size: 1.5rem;
+  }
+  .hero-button {
+    font-size: 1.125rem;
+  }
+  .bottom-nav{
+    margin: 10px 0;
+  }
+  iframe{
+    width: 100%;
+    height: 350px;
+  }
+  /* .hero::before {
+    height: 65%;
+} */
+}
